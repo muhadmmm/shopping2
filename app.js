@@ -8,12 +8,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Create HTML content for the product card
         productCard.innerHTML = `
-            <img src="${product.imageUrl}" alt="${product.name}">
-            <h3>${product.name}</h3>
-            <p>${product.price} ₹</p>
-            <button>Contact Us</button>
-            <p>${product.description}</p>
-        `;
+    <div class="container">
+        <img src="${product.imageUrl}" alt="${product.name}">
+        <h3>${product.name}</h3>
+        <span class="product-price">${product.price} ₹</span>
+   <a href="https://wa.me/${product.phoneNumber}?text=${product.text}"> <button>Contact Us</button></a>
+    <p class="description">${product.description}</p>
+    </div>
+`;
+
 
         // Append the product card to the product list
         productList.appendChild(productCard);
