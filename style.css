@@ -1,0 +1,86 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #007bff; /* Blue header background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.container {
+    width: 175px;
+    height: 340px;
+    margin: 0 auto; /* Center content horizontally */
+    padding: 10px; /* Add some spacing around content */
+    background-color: #fff; /* White background for container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+    overflow: scroll;
+    display: inline-block;
+    text-align: center;
+}
+
+.product-card {
+    width: 100%; /* Full width for product cards */
+    margin-bottom: 10px; /* Spacing between product cards */
+    padding: 5px; /* Add padding inside product cards */
+    background-color: #fff; /* White background for product cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    
+}
+
+.product-card img {
+    width: 100%; /* Full width for product images */
+    border-radius: 8px; /* Rounded corners for images */
+    margin-bottom: 5px; /* Spacing below images */
+    padding: 0px;
+}
+
+.product-card h3 {
+    font-size: 15px; /* Larger font size for product titles */
+    margin-bottom: 5px; /* Spacing below titles */
+}
+
+.product-card p {
+    font-size: 16px; /* Regular font size for product details */
+    margin-bottom: 10px; /* Spacing below details */
+}
+
+.product-card button {
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to button */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer;
+    width: 50px;
+}
+
+.product-card button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+footer{
+  text-align: center;
+  padding: 5px;
+  background-color: #3B3D48;
+  color: #FFFFFF;
+  font-size: 12px;
+  position: relative;
+  top:500px;
+}
